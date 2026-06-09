@@ -20,9 +20,13 @@ This organization hosts our open-source libraries, integration tooling, and refe
 
 | Repo | Purpose |
 |---|---|
-| [`trust-verifier-sdk`](https://github.com/troothllc/trust-verifier-sdk) | Independently verify any Trooth Trust Receipt. Apache 2.0. |
+| [`trooth-templates`](https://github.com/troothllc/trooth-templates) | Open-source compliance templates: Privacy Policy, ToS, AUP, AI Use Policy, Model Card, security.txt, SBOM, AI-Code disclosure. |
+| [`trooth-action`](https://github.com/troothllc/trooth-action) | GitHub Action to run Trooth compliance scans on every push. Free for public repos. |
+| [`trooth-cli`](https://github.com/troothllc/trooth-cli) | Run compliance scans, verify Trust Receipts, and check status from your terminal. Free at the Bronze tier via npm. |
+| [`trooth-eval-harnesses`](https://github.com/troothllc/trooth-eval-harnesses) | Open-source compliance evaluation harnesses for NIST CSF 2.0, NIST AI RMF 1.0, EU AI Act, GDPR, and CCPA. |
+| [`trooth-vscode`](https://github.com/troothllc/trooth-vscode) | VS Code and Cursor extension. Run compliance scans, check drift, and verify Trust Receipts without leaving your editor. |
 
-More repositories will appear here as we approach our public launch on **August 2, 2026** — the EU AI Act Article 50 enforcement date.
+All repositories are Apache 2.0 licensed. Cryptographic verification ships with the production API on **August 2, 2026** — the EU AI Act Article 50 enforcement date.
 
 ## Get started
 
