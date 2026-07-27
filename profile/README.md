@@ -1,6 +1,6 @@
 <div align="center">
 
-# Trooth
+<img src="https://raw.githubusercontent.com/troothllc/.github/main/profile/banner.png" alt="Trooth — Built for you, not off you" width="820" />
 
 **Compliance infrastructure for AI.**
 
