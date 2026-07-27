@@ -20,6 +20,7 @@ This organization hosts our open-source libraries, integration tooling, and refe
 
 | Repo | Purpose |
 |---|---|
+| [`trooth-platform`](https://github.com/troothllc/trooth-platform) | Canonical developer platform: the OpenAPI 3.1 spec, architecture, and copy-paste examples (cURL, Node, Python, Go) across all nine PROTECT / PROVE / GROW capabilities. |
 | [`trooth-templates`](https://github.com/troothllc/trooth-templates) | Open-source compliance templates: Privacy Policy, ToS, AUP, AI Use Policy, Model Card, security.txt, SBOM, AI-Code disclosure. |
 | [`trooth-action`](https://github.com/troothllc/trooth-action) | GitHub Action to run Trooth compliance scans on every push. Free for public repos. |
 | [`trooth-cli`](https://github.com/troothllc/trooth-cli) | Run compliance scans, verify Trust Receipts, and check status from your terminal. Free at the Bronze tier via npm. |
