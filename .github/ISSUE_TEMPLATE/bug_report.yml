@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in a Trooth open-source repo is broken.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the report. Fill in every field so we can reproduce it fast.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: A minimal, ordered list. Include commands and config.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package / Action version
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime and OS
+      description: e.g. Node 20.11 on macOS 15, or ubuntu-latest runner.
+    validations:
+      required: true
+  - type: input
+    id: api-version
+    attributes:
+      label: Trooth-Version
+      description: The API version header you send, if any.
+    validations:
+      required: false

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://www.trooth.co/docs
+    about: API reference, quickstarts, CLI, webhooks, and the Trust Protocol spec.
+  - name: Questions and discussion
+    url: https://github.com/troothllc/.github/discussions
+    about: Ask how to use Trooth, share an integration, or propose an idea.
+  - name: Report a vulnerability
+    url: https://www.trooth.co/vdp
+    about: Do not open a public issue. Follow our disclosure policy.
