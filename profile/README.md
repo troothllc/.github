@@ -2,11 +2,11 @@
 
 <img src="https://raw.githubusercontent.com/troothllc/.github/main/profile/banner.png" alt="Trooth" width="820" />
 
-### The witnessed trust network for software and AI companies
+### The trust profile every software and AI company needs
 
-Every company on the Trooth Network gets a public trust profile built from **witnessed evidence**: real security, privacy, and AI-governance posture, observed from live systems, signed and timestamped, and kept current automatically. Buyers and their AI agents read and compare it with no login. No self-marked questionnaires. No pay-for-a-badge.
+Your company has a LinkedIn. It probably has a Crunchbase, maybe a G2. The Trooth Network is where its **security, privacy, and AI trust** lives: the record a buyer, or a buyer's AI assistant, reads before deciding whether to trust you. Witnessed from your live systems, signed, dated, and kept current on its own.
 
-**[Join the Network](https://trooth.co/signup)** · **[Browse the Network](https://trooth.co/network)** · **[How witnessing works](https://trooth.co/methodology)** · **[Docs](https://trooth.co/docs)** · **[Pricing](https://trooth.co/pricing)**
+**[Get your company on the Network](https://trooth.co/signup)** · **[See who's already on it](https://trooth.co/network)** · **[How witnessing works](https://trooth.co/methodology)** · **[Docs](https://trooth.co/docs)** · **[Pricing](https://trooth.co/pricing)**
 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-0B0B0B)](https://www.apache.org/licenses/LICENSE-2.0) [![npm trooth](https://img.shields.io/npm/v/trooth?label=npm%20trooth&color=D5C884)](https://www.npmjs.com/package/trooth) [![MCP registry](https://img.shields.io/badge/MCP%20registry-io.github.trooth--eng%2Ftrooth--network-1A73E8)](https://registry.modelcontextprotocol.io)
 
@@ -14,29 +14,38 @@ Every company on the Trooth Network gets a public trust profile built from **wit
 
 ---
 
-## For companies: prove it once, and stop repeating yourself
+## When a buyer checks you, what do they find?
 
-Trooth witnesses your public and system evidence and turns it into one link a buyer can trust. Send a profile, not a 300-row spreadsheet.
+Before anyone buys software, someone on their side asks the same question: can we trust this vendor? Today that means a slow questionnaire, a stale PDF, or a self-marked badge no one witnessed. More and more, an AI assistant answers it first, from whatever it can find.
 
-| You are | What the Network does for you |
-| --- | --- |
-| **An indie founder** | A public trust profile that answers "can we trust this vendor?" before you can afford a security team, and a listing in a directory buyers actually search. |
-| **A startup** | Witnessed security posture that turns weeks of enterprise security review into a link. |
-| **A mid-size company** | Posture mapped to SOC 2, ISO 27001, the EU AI Act, NIST AI RMF, GDPR, and HIPAA, with drift surfaced when it happens, not at audit time. |
-| **An enterprise** | Every vendor evaluated on the same witnessed evidence, side by side. Require Trooth across your vendor list and stop chasing PDFs. |
+Give it something real to find. A witnessed Trooth profile shows your security, privacy, and AI posture with a source and a date on every claim. The vendor with a current, witnessed profile is the one that clears review and wins the deal. The vendor with nothing looks like a risk.
 
-Marketing, exposure, security posture, AI posture: one profile carries all of it, because it all comes from the same witnessed evidence.
+**[Get witnessed at trooth.co/signup](https://trooth.co/signup)**
 
-**Get witnessed at [trooth.co/signup](https://trooth.co/signup).**
+## What a profile gives you
+
+**Witnessed, not self-reported.** Trooth reads your public and system evidence directly, signs it, and dates it. Buyers trust it precisely because you did not write it.
+
+**One link instead of a questionnaire.** Send a profile, not a 300-row spreadsheet, every time a buyer asks.
+
+**Always current.** Your profile is re-witnessed on its own, so it never goes stale, and drift shows up when it happens instead of at audit time.
+
+**Found by buyers and their AI agents.** You get a listing in a public directory buyers search, and a record any AI assistant can read with no login.
+
+**Mapped to the frameworks buyers ask about.** SOC 2, ISO 27001, the EU AI Act, NIST AI RMF, GDPR, and HIPAA. One profile carries all of it.
+
+From a solo founder without a security team yet to an enterprise managing a hundred vendors of its own, it is the same witnessed evidence, read the same way.
+
+**[Claim your company's page](https://trooth.co/signup)**
 
 ## For buyers and AI agents: check anyone, no login
 
-The Network directory is public and free. Search it, open any profile, and compare vendors without creating an account, at [trooth.co/network](https://trooth.co/network).
+The Network directory is public and free to read. Search it and compare vendors without an account, at [trooth.co/network](https://trooth.co/network).
 
-Your AI can read it too. Add the read-only Trooth connector to Claude, ChatGPT, or Cursor and ask about any company in plain words, or check one from your terminal:
+Your AI can read it too. Add the read-only Trooth connector to Claude, ChatGPT, or Cursor and ask about a company in plain words, or check one from your terminal:
 
 ```bash
-npx trooth check stripe.com
+npx trooth check trooth.co
 ```
 
 Endpoint (read-only, no key, no account): `https://api.trooth.co/public/mcp`
@@ -56,11 +65,9 @@ The Trooth platform is proprietary. What we open-source is everything a third pa
 | [**trooth-templates**](https://github.com/troothllc/trooth-templates) | Open-source policy and disclosure templates the Network witnesses: Privacy Policy, ToS, AUP, AI Use Policy, Model Card, security.txt, SBOM, and AI-code disclosure. |
 | [**trooth-eval-harnesses**](https://github.com/troothllc/trooth-eval-harnesses) | Open evaluation harnesses for NIST CSF 2.0, NIST AI RMF 1.0, the EU AI Act, GDPR, and CCPA. |
 
-## For security researchers
+## Security and contact
 
-See our [Vulnerability Disclosure Policy](https://trooth.co/security) and [/.well-known/security.txt](https://trooth.co/.well-known/security.txt). Our own posture is witnessed the same way every other company on the Network is, at [trooth.co/security](https://trooth.co/security).
-
-## Contact
+Our own posture is witnessed the same way every company on the Network is, at [trooth.co/security](https://trooth.co/security). See our [Vulnerability Disclosure Policy](https://trooth.co/security) and [/.well-known/security.txt](https://trooth.co/.well-known/security.txt).
 
 General: hello@trooth.co · Security: security@trooth.co · Legal: legal@trooth.co · Privacy: privacy@trooth.co
 
