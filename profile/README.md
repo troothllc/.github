@@ -47,7 +47,7 @@ The Trooth platform is proprietary. What we open-source is everything a third pa
 
 | Repo | What it is |
 | --- | --- |
-| [**trooth-mcp**](https://github.com/trooth-eng/trooth-mcp) | The public, read-only MCP connector. Point Claude, ChatGPT, or Cursor at `https://api.trooth.co/public/mcp` and check any company. |
+| [**trooth-mcp**](https://github.com/troothllc/trooth-mcp) | The public, read-only MCP connector. Point Claude, ChatGPT, or Cursor at `https://api.trooth.co/public/mcp` and check any company. |
 | [**trust-verifier-sdk**](https://github.com/troothllc/trust-verifier-sdk) | Independently verify any Trooth Trust Receipt without trusting Trooth. Ed25519 and RFC 3161 against our published keys. |
 | [**trooth-platform**](https://github.com/troothllc/trooth-platform) | The developer platform: canonical OpenAPI 3.1 spec, architecture, and copy-paste examples in cURL, Node, Python, and Go. |
 | [**trooth-cli**](https://github.com/troothllc/trooth-cli) | Run Trooth from your terminal: scan your posture, verify Trust Receipts, and check any company's standing. |
