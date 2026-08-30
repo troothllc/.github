@@ -1,0 +1,3 @@
+# Default code owner for Trooth repositories.
+# Place a CODEOWNERS in an individual repo to override per path.
+* @trooth-eng
