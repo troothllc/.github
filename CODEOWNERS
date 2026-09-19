@@ -1,3 +1,10 @@
-# Default code owner for Trooth repositories.
-# Place a CODEOWNERS in an individual repo to override per path.
-* @trooth-eng
+# Default owners for everything in this repository.
+#
+# @troothllc/maintainers DOES NOT EXIST YET, and until it does this file does
+# nothing: GitHub silently assigns every pull request to nobody. The decision
+# already taken is to CREATE THE TEAM, not to replace this line with a personal
+# handle - one team fixes the seven files that reference it at once, and the
+# team is the right structure the moment there is a second person.
+#
+# So: create @troothllc/maintainers before relying on anything below.
+* @troothllc/maintainers
