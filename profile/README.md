@@ -6,7 +6,7 @@
 
 Your company has a LinkedIn. It probably has a Crunchbase, maybe a G2. The Trooth Network is where its **security, privacy, and AI trust** lives: the record a buyer, or a buyer's AI assistant, reads before deciding whether to trust you. Witnessed from your live systems, signed, dated, and kept current on its own.
 
-**[Claim your free profile](https://trooth.co/signup)** · **[How witnessing works](https://trooth.co/methodology)** · **[Docs](https://trooth.co/docs)** · **[Pricing](https://trooth.co/pricing)**
+**[Claim your free profile](https://trooth.co/signup)** · **[How witnessing works](https://trooth.co/methodology)** · **[Docs](https://trooth.co/docs)**
 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-0B0B0B)](https://www.apache.org/licenses/LICENSE-2.0) [![npm trooth](https://img.shields.io/npm/v/trooth?label=npm%20trooth&color=D5C884)](https://www.npmjs.com/package/trooth) [![MCP registry](https://img.shields.io/badge/MCP%20registry-io.github.trooth--eng%2Ftrooth--network-1A73E8)](https://registry.modelcontextprotocol.io)
 
@@ -32,7 +32,7 @@ Give it something real to find. A witnessed Trooth profile shows your security, 
 
 **Read by buyers and their AI agents.** Your profile is public and readable with no login, so a buyer or their AI assistant can check you in seconds.
 
-**Mapped to the frameworks buyers ask about.** SOC 2, ISO 27001, the EU AI Act, NIST AI RMF, GDPR, and HIPAA. One profile carries all of it.
+**Answers the questions buyers actually ask.** Your record carries the security, privacy and AI practices a review asks about, each with its source and the date it was read, so the same questions do not have to be asked again.
 
 From a solo founder without a security team yet to an enterprise managing a hundred vendors of its own, it is the same witnessed evidence, read the same way.
 
@@ -52,22 +52,22 @@ This is exactly why a profile matters: when a buyer or their AI checks you, a wi
 
 ## What we open-source
 
-The Trooth platform is proprietary. What we open-source is everything a third party needs to read a company's record, verify a Trooth-issued artifact, and wire Trooth into their own stack. All public repositories are Apache 2.0.
+The Trooth platform is proprietary. What we open-source is everything a third party needs to read a company's record, verify a Trooth-issued artifact, and wire Trooth into their own stack. All public repositories are Apache 2.0 except `trooth-mcp`, which is MIT.
 
 | Repo | What it is |
 | --- | --- |
 | [**trooth-mcp**](https://github.com/troothllc/trooth-mcp) | The public, read-only MCP connector. Point Claude, ChatGPT, or Cursor at `https://api.trooth.co/public/mcp` and check any company. |
-| [**trust-verifier-sdk**](https://github.com/troothllc/trust-verifier-sdk) | Independently verify any Trooth Trust Receipt without trusting Trooth. Ed25519 and RFC 3161 against our published keys. |
-| [**trooth-platform**](https://github.com/troothllc/trooth-platform) | The developer platform: canonical OpenAPI 3.1 spec, architecture, and copy-paste examples in cURL, Node, Python, and Go. |
-| [**trooth-cli**](https://github.com/troothllc/trooth-cli) | Run Trooth from your terminal: scan your posture, verify Trust Receipts, and check any company's standing. |
-| [**trooth-action**](https://github.com/troothllc/trooth-action) | GitHub Action that witnesses your repo's posture on every push. Free for public repos. |
-| [**trooth-vscode**](https://github.com/troothllc/trooth-vscode) | VS Code and Cursor extension: witness posture, check drift, and verify receipts without leaving your editor. |
-| [**trooth-templates**](https://github.com/troothllc/trooth-templates) | Open-source policy and disclosure templates the Network witnesses: Privacy Policy, ToS, AUP, AI Use Policy, Model Card, security.txt, SBOM, and AI-code disclosure. |
-| [**trooth-eval-harnesses**](https://github.com/troothllc/trooth-eval-harnesses) | Open evaluation harnesses for NIST CSF 2.0, NIST AI RMF 1.0, the EU AI Act, GDPR, and CCPA. |
+| [**trust-verifier-sdk**](https://github.com/troothllc/trust-verifier-sdk) | Where an independent verifier will live. It holds no code yet, and its front page describes an API that does not exist — see the repository for what is actually there. The signing keys are published at [/verify/keys](https://trooth.co/verify/keys) today. |
+| [**trooth-platform**](https://github.com/troothllc/trooth-platform) | The OpenAPI 3.1 description of the public API. |
+| [**trooth-cli**](https://github.com/troothllc/trooth-cli) | `npx trooth check <domain>` reads any company's public record from your terminal; `trooth lint` reads what your own repository declares, locally. Two commands, no account, no key. Published on npm as `trooth`. |
+| [**trooth-action**](https://github.com/troothllc/trooth-action) | GitHub Action wrapping the CLI. Advisory by default: it reports what your repository declares and does not fail your build unless you ask it to. |
+| [**trooth-vscode**](https://github.com/troothllc/trooth-vscode) | VS Code and Cursor extension. Early: it opens the Trust Center and a record from the editor. It does not yet verify anything locally. |
+| [**trooth-templates**](https://github.com/troothllc/trooth-templates) | Starting points for the documents a record links to: privacy policy, terms, acceptable use, AI use policy, model card, `security.txt`, SBOM and AI-code disclosure. Templates, not advice, and not reviewed by a lawyer. |
+| [**trooth-eval-harnesses**](https://github.com/troothllc/trooth-eval-harnesses) | Checklists a company can work through against its own systems and publish the results of. Trooth does not run them for you and does not grade the output. |
 
 ## Security and contact
 
-Our own posture is witnessed the same way every company on the Network is, at [trooth.co/security](https://trooth.co/security). See our [Vulnerability Disclosure Policy](https://trooth.co/security) and [/.well-known/security.txt](https://trooth.co/.well-known/security.txt).
+Our own posture is witnessed the same way every company on the Network is, at [trooth.co/security](https://trooth.co/security). See our [Vulnerability Disclosure Policy](https://trooth.co/security/vulnerability-disclosure-policy) and [/.well-known/security.txt](https://trooth.co/.well-known/security.txt).
 
 General: hello@trooth.co · Security: security@trooth.co · Legal: legal@trooth.co · Privacy: privacy@trooth.co
 
