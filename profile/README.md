@@ -18,7 +18,7 @@ Trooth is an infrastructure and cybersecurity company providing Machine-Readable
 
 A company's record carries its identity, products, commercial terms, people, documents, security and privacy posture, AI practices, procurement terms and relationships. Every item says where it came from: witnessed by Trooth, taken from a public record, attested by a named counterparty, or declared by the company. Every witnessed item carries the date Trooth last read it.
 
-Trooth witnesses and dates facts. It does not score, rate, rank or certify anyone, and it never adds what it read into one number.
+Trooth witnesses and dates facts. It does not grade, rate or rank anyone, and it never adds what it read into one number.
 
 ## Why a company keeps one
 
@@ -49,12 +49,12 @@ The Trooth platform is proprietary. What we publish in the open is what a third 
 | Repo | What it is |
 | --- | --- |
 | [**trooth-mcp**](https://github.com/troothllc/trooth-mcp) | The public, read-only MCP connector. Point Claude, ChatGPT or Cursor at `https://api.trooth.co/public/mcp` and read any company's record. |
-| [**trust-verifier-sdk**](https://github.com/troothllc/trust-verifier-sdk) | Meant for a tool that checks a Trooth signature with a public key and nothing else from Trooth. It holds no code yet. The Ed25519 keys Trooth signs with are published at [/verify/keys](https://trooth.co/verify/keys) today. |
-| [**trooth-platform**](https://github.com/troothllc/trooth-platform) | The OpenAPI 3.1 description of the public API. |
+| [**trooth-signatures**](https://github.com/troothllc/trooth-signatures) | Meant for a tool that checks a Trooth signature with a public key and nothing else from Trooth. It holds no code yet. The Ed25519 keys Trooth signs with are published at [/verify/keys](https://trooth.co/verify/keys) today. |
+| [**trooth-openapi**](https://github.com/troothllc/trooth-openapi) | The OpenAPI 3.1 contracts for the public API, one for each of Trooth's two public hosts. |
 | [**trooth-cli**](https://github.com/troothllc/trooth-cli) | `npx trooth check <domain>` reads any company's public record from your terminal; `trooth lint` reads what your own repository declares, locally. Two commands, no account, no key. Published on npm as `trooth`. |
 | [**trooth-action**](https://github.com/troothllc/trooth-action) | GitHub Action wrapping the CLI. Advisory by default: it reports what your repository declares and does not fail your build unless you ask it to. |
 | [**trooth-vscode**](https://github.com/troothllc/trooth-vscode) | VS Code and Cursor extension. Version 0.1.0 is a scaffold: its commands open trooth.co pages, including the Trust Center, in your browser. It reads no company record, checks no signature and makes no network request of its own. |
-| [**trooth-eval-harnesses**](https://github.com/troothllc/trooth-eval-harnesses) | Checklists a company can work through against its own systems and publish the results of. Trooth does not run them for you and does not grade the output. |
+| [**trooth-checklists**](https://github.com/troothllc/trooth-checklists) | Checklists a company can work through against its own systems and publish the results of. Trooth does not run them for you and does not grade the output. |
 
 ## Security and contact
 
@@ -64,7 +64,7 @@ General: hello@trooth.co · Security: security@trooth.co · Legal: legal@trooth.
 
 <div align="center">
 
-**Trooth signs what it witnessed. It never signs on a company's behalf.** Every item on the Network shows its source, and every witnessed item shows the date it was read. Nothing on the Network is certified or guaranteed, including what Trooth says about itself.
+**Trooth signs what it witnessed. It never signs on a company's behalf.** Every item on the Network shows its source, and every witnessed item shows the date it was read. Nothing on the Network is an endorsement or a guarantee, including what Trooth says about itself.
 
 // BUILT FOR YOU, NOT OFF YOU //
 

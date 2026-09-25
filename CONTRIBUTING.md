@@ -8,7 +8,7 @@ Trooth operates the Trooth Network: one public, signed, machine-readable record 
 
 DNS says where a company is. A TLS certificate says the connection is authentic. The Trooth Network says who the company is and what it does with your data.
 
-**Trooth witnesses and dates facts. It does not score, rate, rank or certify anyone.** That is a product boundary, not a missing feature, and it decides the fate of a whole class of contribution before it is written. A change that adds a number summarizing a company, a grade, a ranking, a pass mark, a badge that means "approved", or a check of a company against a named standard or certification, will be declined however good the code is. Where two sources disagree, both are published and neither wins. Where a fact is unknown, it is reported unknown rather than filled in.
+**Trooth witnesses and dates facts. It does not grade, rate or rank anyone.** That is a product boundary, not a missing feature, and it decides the fate of a whole class of contribution before it is written. A change that adds a number summarizing a company, a grade, a ranking, a pass mark, a badge that means "approved", or a check of a company against a named standard or certification, will be declined however good the code is. Where two sources disagree, both are published and neither wins. Where a fact is unknown, it is reported unknown rather than filled in.
 
 If you are unsure whether an idea sits inside that boundary, open an issue and ask first. It is a cheaper conversation before the code than after it.
 
@@ -27,7 +27,7 @@ Clear, imperative commit messages. One concern per pull request; small diffs are
 Each repository documents its own setup in its README, and the setup is not the same in all of them, because they are not all the same kind of thing.
 
 - Some carry code and a test suite with CI on it. Clone, install, run the tests, and fix any failure before you push.
-- Some carry no code at all. `trooth-mcp` is a license, a README and the manifest published to the MCP Registry; the server it describes runs elsewhere. `trust-verifier-sdk` is a license, a README, a contributing guide and a security policy today. There is nothing to run in either, and a pull request against one of them is a documentation change.
+- Some carry no code at all. `trooth-mcp` is a license, a README and the manifest published to the MCP Registry; the server it describes runs elsewhere. `trooth-signatures` is a license, a README, a contributing guide and a security policy today. There is nothing to run in either, and a pull request against one of them is a documentation change.
 
 Where a repository has a linter or a type checker, run both and leave them clean. The linter is the authority on formatting; we do not argue about it in review.
 
@@ -53,4 +53,4 @@ By participating you agree to `CODE_OF_CONDUCT.md`. Conduct reports go to **hell
 
 ## License
 
-By contributing, you agree your contribution is licensed under the repository's own license. That is Apache License 2.0 in `trooth-action`, `trooth-cli`, `trooth-eval-harnesses`, `trooth-platform`, `trooth-vscode` and `trust-verifier-sdk`, and MIT in `trooth-mcp`. The `.github` repository, which holds these organization-wide files, carries no `LICENSE` file. Check the `LICENSE` in the repository you are opening the pull request against; it governs, and this sentence does not.
+By contributing, you agree your contribution is licensed under the repository's own license. That is Apache License 2.0 in `trooth-action`, `trooth-checklists`, `trooth-cli`, `trooth-openapi`, `trooth-signatures` and `trooth-vscode`, and MIT in `trooth-mcp`. The `.github` repository, which holds these organization-wide files, carries no `LICENSE` file. Check the `LICENSE` in the repository you are opening the pull request against; it governs, and this sentence does not.
