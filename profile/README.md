@@ -16,19 +16,19 @@ Trooth is an infrastructure and cybersecurity company providing Machine-Readable
 
 ## What a record is
 
-A company's record carries its identity, products, commercial terms, people, documents, security and privacy posture, AI practices, procurement terms and relationships. Every item says where it came from: witnessed by Trooth, taken from a public record, attested by a named counterparty, or declared by the company. Every item carries the date it was last read.
+A company's record carries its identity, products, commercial terms, people, documents, security and privacy posture, AI practices, procurement terms and relationships. Every item says where it came from: witnessed by Trooth, taken from a public record, attested by a named counterparty, or declared by the company. Every witnessed item carries the date Trooth last read it.
 
 Trooth witnesses and dates facts. It does not score, rate, rank or certify anyone, and it never adds what it read into one number.
 
 ## Why a company keeps one
 
-**One link instead of a questionnaire.** A buyer reads the record instead of sending a 300-row spreadsheet every time.
+**One link instead of a questionnaire.** A buyer reads the record instead of sending the same security questionnaire on every deal.
 
 **Readable by people and by their AI assistants.** The record is public and needs no login, so a buyer, or the assistant a buyer asks, can read it directly.
 
 **Declared and witnessed are kept apart.** What a company states is labeled declared. What Trooth observed is labeled witnessed. A buyer can see which is which.
 
-**Read again on a schedule.** Trooth re-reads what it witnessed on a fixed schedule, and every item shows the date it was last read, so a reader can see how old each fact is.
+**Read again on a schedule.** Live probes are re-read hourly, and each category of fact has a published freshness window. Every witnessed item shows the date it was last read, and one past its window is labeled stale, so a reader can see how old each fact is.
 
 The record is free.
 
@@ -44,27 +44,27 @@ npx trooth check trooth.co
 
 ## What we publish in the open
 
-The Trooth platform is proprietary. What we publish in the open is what a third party needs to read a company's record, check a Trooth signature, and connect Trooth to their own tools. Every public repository is Apache 2.0 except `trooth-mcp`, which is MIT.
+The Trooth platform is proprietary. What we publish in the open is what a third party needs to read a company's record and connect Trooth to their own tools, and the steps for checking a Trooth signature. Every repository in the table below is Apache 2.0 except `trooth-mcp`, which is MIT.
 
 | Repo | What it is |
 | --- | --- |
 | [**trooth-mcp**](https://github.com/troothllc/trooth-mcp) | The public, read-only MCP connector. Point Claude, ChatGPT or Cursor at `https://api.trooth.co/public/mcp` and read any company's record. |
-| [**trust-verifier-sdk**](https://github.com/troothllc/trust-verifier-sdk) | Where an independent verifier will live. It holds no code yet. The Ed25519 keys Trooth signs with are published at [/verify/keys](https://trooth.co/verify/keys) today. |
+| [**trust-verifier-sdk**](https://github.com/troothllc/trust-verifier-sdk) | Meant for a tool that checks a Trooth signature with a public key and nothing else from Trooth. It holds no code yet. The Ed25519 keys Trooth signs with are published at [/verify/keys](https://trooth.co/verify/keys) today. |
 | [**trooth-platform**](https://github.com/troothllc/trooth-platform) | The OpenAPI 3.1 description of the public API. |
 | [**trooth-cli**](https://github.com/troothllc/trooth-cli) | `npx trooth check <domain>` reads any company's public record from your terminal; `trooth lint` reads what your own repository declares, locally. Two commands, no account, no key. Published on npm as `trooth`. |
 | [**trooth-action**](https://github.com/troothllc/trooth-action) | GitHub Action wrapping the CLI. Advisory by default: it reports what your repository declares and does not fail your build unless you ask it to. |
-| [**trooth-vscode**](https://github.com/troothllc/trooth-vscode) | VS Code and Cursor extension. Early: it opens the Trust Center and a record from the editor. It does not yet verify anything locally. |
+| [**trooth-vscode**](https://github.com/troothllc/trooth-vscode) | VS Code and Cursor extension. Version 0.1.0 is a scaffold: its commands open trooth.co pages, including the Trust Center, in your browser. It reads no company record, checks no signature and makes no network request of its own. |
 | [**trooth-eval-harnesses**](https://github.com/troothllc/trooth-eval-harnesses) | Checklists a company can work through against its own systems and publish the results of. Trooth does not run them for you and does not grade the output. |
 
 ## Security and contact
 
-Trooth's own record is witnessed the same way as every other company's on the Network, at [trooth.co/security](https://trooth.co/security). See our [Vulnerability Disclosure Policy](https://trooth.co/security/vulnerability-disclosure-policy) and [/.well-known/security.txt](https://trooth.co/.well-known/security.txt).
+Trooth's own Trust Center is at [trooth.co/security](https://trooth.co/security): its security, privacy and AI governance, with the evidence for each control and the gaps named. See our [Vulnerability Disclosure Policy](https://trooth.co/security/vulnerability-disclosure-policy) and [/.well-known/security.txt](https://trooth.co/.well-known/security.txt).
 
 General: hello@trooth.co · Security: security@trooth.co · Legal: legal@trooth.co · Privacy: privacy@trooth.co
 
 <div align="center">
 
-**Trooth signs what it witnessed. It never signs on a company's behalf.** Every item on the Network shows its source and the date it was read. Nothing on the Network is certified or guaranteed, including what Trooth says about itself.
+**Trooth signs what it witnessed. It never signs on a company's behalf.** Every item on the Network shows its source, and every witnessed item shows the date it was read. Nothing on the Network is certified or guaranteed, including what Trooth says about itself.
 
 // BUILT FOR YOU, NOT OFF YOU //
 
