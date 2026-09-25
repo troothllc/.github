@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Trooth operates the Trooth Network: one public, signed, machine-readable record per company. It is Trooth's only product and it is free. These repositories are the open part of it: the readers, the evaluation harnesses and the descriptions of the public interfaces. Everything below applies in all of them, and in the issues, pull requests and discussions attached to them.
+Trooth operates the Trooth Network: one public, signed, machine-readable record per company. It is Trooth's only product and it is free. These repositories are the open part of it: the readers, the self-assessment checklists and the descriptions of the public interfaces. Everything below applies in all of them, and in the issues, pull requests and discussions attached to them.
 
 ## The standard
 
@@ -19,7 +19,7 @@ Reports are handled confidentially. What you can expect:
 - Acknowledgment that the report arrived.
 - A decision, and what was done about it.
 
-What you should not expect, because it does not exist: a committee, an appeals board, or a second person to escalate to. Trooth is one person today. The organization's own `CODEOWNERS` files point at a `@troothllc/maintainers` team that has not been created yet, which is the same fact seen from the other side. When there is a second person, this section changes and the change will be visible in this file's history.
+What you should not expect, because it does not exist: a committee, an appeals board, or a second person to escalate to. Trooth is one person today. The `@troothllc/maintainers` team that every `CODEOWNERS` file names has one member today, which is the same fact seen from the other side. When there is a second person, this section changes and the change will be visible in this file's history.
 
 ## Enforcement
 

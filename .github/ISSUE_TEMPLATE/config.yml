@@ -2,10 +2,10 @@ blank_issues_enabled: false
 contact_links:
   - name: Documentation
     url: https://trooth.co/docs
-    about: API reference, quickstarts, CLI, webhooks, and the Trust Protocol spec.
-  - name: Questions and discussion
-    url: https://github.com/troothllc/.github/discussions
-    about: Ask how to use Trooth, share an integration, or propose an idea.
+    about: The API reference, the command-line reader, the MCP connector and how to check a Trooth signature.
+  - name: A question about using Trooth
+    url: https://trooth.co/contact
+    about: Write to hello@trooth.co or use the contact form. We reply within two business days.
   - name: Report a vulnerability
     url: https://trooth.co/security/vulnerability-disclosure-policy
-    about: Do not open a public issue. Follow our disclosure policy.
+    about: Do not open a public issue. Report it privately under the Vulnerability Disclosure Policy.

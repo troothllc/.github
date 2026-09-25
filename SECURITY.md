@@ -64,7 +64,7 @@ If you are unsure whether an action is covered, email security@trooth.co and ask
 
 ## What this policy is not
 
-Trooth witnesses and dates facts; it does not score, rate, rank or certify anyone. Reporting a vulnerability here does not produce a rating of Trooth or of anybody else, and a fixed vulnerability does not become a mark on anyone's record.
+Trooth witnesses and dates facts; it does not grade, rate or rank anyone. Reporting a vulnerability here does not produce a rating of Trooth or of anybody else, and a fixed vulnerability does not become a mark on anyone's record.
 
 ---
 
