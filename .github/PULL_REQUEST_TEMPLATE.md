@@ -14,5 +14,5 @@
 
 - [ ] I opened an issue first (or this is a trivial fix)
 - [ ] Commits are signed (Verified)
-- [ ] Tests pass and cover the change
+- [ ] Tests report no failures and cover the change, where the repository has tests
 - [ ] No unexplained new dependencies

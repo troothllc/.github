@@ -8,6 +8,6 @@
 
 ## Checks
 
-- [ ] The repo's checks pass locally
+- [ ] The repository's tests and linters, where it has them, report no failures locally
 - [ ] No secrets, keys, or credentials are included in this change
 - [ ] README and docs are updated if behavior changed

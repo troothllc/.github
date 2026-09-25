@@ -4,7 +4,7 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: Thanks for the report. Fill in every field so we can reproduce it fast.
+      value: Thanks for the report. Fill in the required fields so the problem can be reproduced. Do not report a security vulnerability here; email security@trooth.co instead.
   - type: textarea
     id: what
     attributes:
@@ -35,7 +35,7 @@ body:
   - type: input
     id: api-version
     attributes:
-      label: Trooth-Version
-      description: The API version header you send, if any.
+      label: Contract version
+      description: The contract query parameter you send to the public API, if any.
     validations:
       required: false

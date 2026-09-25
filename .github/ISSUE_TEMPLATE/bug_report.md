@@ -19,4 +19,4 @@ labels: bug
 Repo and version:
 OS or runtime:
 
-<!-- Please do not include secrets, keys, or tokens. To report a security vulnerability, use the Security tab or email security@trooth.co, never a public issue. -->
+<!-- Please do not include secrets, keys, or tokens. To report a security vulnerability, email security@trooth.co as SECURITY.md describes, never a public issue. -->
