@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://trooth.co/brand/trooth-banner-1500x500.png" alt="Trooth: Machine-Readable Trust infrastructure for people and AI agents" width="820" />
+<img src="https://trooth.co/brand/trooth-banner-1500x500.png" alt="Trooth: Machine-Readable Trust company profiles for people and AI agents" width="820" />
 
-### Machine-Readable Trust infrastructure for people and AI agents
+### Machine-Readable Trust company profiles for people and AI agents
 
 Trooth is an infrastructure and cybersecurity company providing Machine-Readable Trust. Its one product is the Trooth Network: a public, signed, machine-readable record for each company. Find company disclosures and dated observations in one record. See what the company says, what Trooth observed, and where each item came from.
 
