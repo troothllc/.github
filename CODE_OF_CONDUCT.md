@@ -19,7 +19,7 @@ Reports are handled confidentially. What you can expect:
 - Acknowledgment that the report arrived.
 - A decision, and what was done about it.
 
-What you should not expect, because it does not exist: a committee, an appeals board, or a second person to escalate to. Trooth is one person today. The `@troothllc/maintainers` team that every `CODEOWNERS` file names has one member today, which is the same fact seen from the other side. When there is a second person, this section changes and the change will be visible in this file's history.
+What you should not expect, because it does not exist: a committee or an appeals board. Reports are read by the `@troothllc/maintainers` team that every `CODEOWNERS` file names, and any change to how they are handled will be visible in this file's history.
 
 ## Enforcement
 
