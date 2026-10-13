@@ -52,7 +52,6 @@ The Trooth platform is proprietary. What we publish in the open is what a third 
 | [**trooth-signatures**](https://github.com/troothllc/trooth-signatures) | Meant for a tool that checks a Trooth signature with a public key and nothing else from Trooth. It holds no code yet. The Ed25519 keys Trooth signs with are published at [/verify/keys](https://trooth.co/verify/keys) today. |
 | [**trooth-openapi**](https://github.com/troothllc/trooth-openapi) | The OpenAPI 3.1 contracts for the public API, one for each of Trooth's two public hosts. |
 | [**trooth-cli**](https://github.com/troothllc/trooth-cli) | `npx trooth check <domain>` reads any company's public record from your terminal; `trooth lint` reads what your own repository declares, locally. Two commands, no account, no key. Published on npm as `trooth`. |
-| [**trooth-action**](https://github.com/troothllc/trooth-action) | GitHub Action wrapping the CLI. Advisory by default: it reports what your repository declares and does not fail your build unless you ask it to. |
 | [**trooth-vscode**](https://github.com/troothllc/trooth-vscode) | VS Code and Cursor extension. Version 0.1.0 is a scaffold: its commands open trooth.co pages, including the Trust Center, in your browser. It reads no company record, checks no signature and makes no network request of its own. |
 | [**trooth-checklists**](https://github.com/troothllc/trooth-checklists) | Checklists a company can work through against its own systems and publish the results of. Trooth does not run them for you and does not grade the output. |
 

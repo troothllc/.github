@@ -53,4 +53,4 @@ By participating you agree to `CODE_OF_CONDUCT.md`. Conduct reports go to **hell
 
 ## License
 
-By contributing, you agree your contribution is licensed under the repository's own license. That is Apache License 2.0 in `trooth-action`, `trooth-checklists`, `trooth-cli`, `trooth-openapi`, `trooth-signatures` and `trooth-vscode`, and MIT in `trooth-mcp`. The `.github` repository, which holds these organization-wide files, carries no `LICENSE` file. Check the `LICENSE` in the repository you are opening the pull request against; it governs, and this sentence does not.
+By contributing, you agree your contribution is licensed under the repository's own license. That is Apache License 2.0 in `trooth-checklists`, `trooth-cli`, `trooth-openapi`, `trooth-signatures` and `trooth-vscode`, and MIT in `trooth-mcp`. The `.github` repository, which holds these organization-wide files, carries no `LICENSE` file. Check the `LICENSE` in the repository you are opening the pull request against; it governs, and this sentence does not.
