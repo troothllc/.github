@@ -27,7 +27,7 @@ Clear, imperative commit messages. One concern per pull request; small diffs are
 Each repository documents its own setup in its README, and the setup is not the same in all of them, because they are not all the same kind of thing.
 
 - Some carry code and a test suite with CI on it. Clone, install, run the tests, and fix any failure before you push.
-- Some carry no code at all. `trooth-mcp` is a license, a README and the manifest published to the MCP Registry; the server it describes runs elsewhere. `trooth-signatures` is a license, a README, a contributing guide and a security policy today. There is nothing to run in either, and a pull request against one of them is a documentation change.
+- Some carry no code at all. `trooth-mcp` is a license, a README and the manifest published to the MCP Registry; the server it describes runs elsewhere. There is nothing to run in it, and a pull request against it is a documentation change.
 
 Where a repository has a linter or a type checker, run both and leave them clean. The linter is the authority on formatting; we do not argue about it in review.
 
@@ -53,4 +53,4 @@ By participating you agree to `CODE_OF_CONDUCT.md`. Conduct reports go to **hell
 
 ## License
 
-By contributing, you agree your contribution is licensed under the repository's own license. That is Apache License 2.0 in `trooth-checklists`, `trooth-cli`, `trooth-openapi`, `trooth-signatures` and `trooth-vscode`, and MIT in `trooth-mcp`. The `.github` repository, which holds these organization-wide files, carries no `LICENSE` file. Check the `LICENSE` in the repository you are opening the pull request against; it governs, and this sentence does not.
+By contributing, you agree your contribution is licensed under the repository's own license. That is Apache License 2.0 in `trooth-cli` and `trooth-openapi`, and MIT in `trooth-mcp`. The `.github` repository, which holds these organization-wide files, carries no `LICENSE` file. Check the `LICENSE` in the repository you are opening the pull request against; it governs, and this sentence does not.

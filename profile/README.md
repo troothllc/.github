@@ -8,7 +8,7 @@ Trooth is an infrastructure and cybersecurity company providing Machine-Readable
 
 **[Claim your company's record](https://trooth.co/signup)** · **[How Trooth witnesses](https://trooth.co/methodology)** · **[Docs](https://trooth.co/docs)**
 
-[![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-0B0B0B)](https://www.apache.org/licenses/LICENSE-2.0) [![npm trooth](https://img.shields.io/npm/v/trooth?label=npm%20trooth&color=D5C884)](https://www.npmjs.com/package/trooth) [![MCP registry](https://img.shields.io/badge/MCP%20registry-io.github.trooth--eng%2Ftrooth--network-1A73E8)](https://registry.modelcontextprotocol.io)
+[![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-0B0B0B)](https://www.apache.org/licenses/LICENSE-2.0) [![npm trooth](https://img.shields.io/npm/v/trooth?label=npm%20trooth&color=D5C884)](https://www.npmjs.com/package/trooth) [![MCP registry](https://img.shields.io/badge/MCP%20registry-io.github.troothllc%2Ftrooth--network-1A73E8)](https://registry.modelcontextprotocol.io)
 
 </div>
 
@@ -44,16 +44,15 @@ npx trooth check trooth.co
 
 ## What we publish in the open
 
-The Trooth platform is proprietary. What we publish in the open is what a third party needs to read a company's record and connect Trooth to their own tools, and the steps for checking a Trooth signature. Every repository in the table below is Apache 2.0 except `trooth-mcp`, which is MIT.
+The Trooth platform is proprietary. What we publish in the open is what a third party needs to read a company's record and connect Trooth to their own tools: the API contract, the MCP connector and the command-line tool. Each is Apache 2.0 except `trooth-mcp`, which is MIT.
 
 | Repo | What it is |
 | --- | --- |
-| [**trooth-mcp**](https://github.com/troothllc/trooth-mcp) | The public, read-only MCP connector. Point Claude, ChatGPT or Cursor at `https://api.trooth.co/public/mcp` and read any company's record. |
-| [**trooth-signatures**](https://github.com/troothllc/trooth-signatures) | Meant for a tool that checks a Trooth signature with a public key and nothing else from Trooth. It holds no code yet. The Ed25519 keys Trooth signs with are published at [/verify/keys](https://trooth.co/verify/keys) today. |
 | [**trooth-openapi**](https://github.com/troothllc/trooth-openapi) | The OpenAPI 3.1 contracts for the public API, one for each of Trooth's two public hosts. |
+| [**trooth-mcp**](https://github.com/troothllc/trooth-mcp) | The public, read-only MCP connector. Point Claude, ChatGPT or Cursor at `https://api.trooth.co/public/mcp` and read any company's record. |
 | [**trooth-cli**](https://github.com/troothllc/trooth-cli) | `npx trooth check <domain>` reads any company's public record from your terminal; `trooth lint` reads what your own repository declares, locally. Two commands, no account, no key. Published on npm as `trooth`. |
-| [**trooth-vscode**](https://github.com/troothllc/trooth-vscode) | VS Code and Cursor extension. Version 0.1.0 is a scaffold: its commands open trooth.co pages, including the Trust Center, in your browser. It reads no company record, checks no signature and makes no network request of its own. |
-| [**trooth-checklists**](https://github.com/troothllc/trooth-checklists) | Checklists a company can work through against its own systems and publish the results of. Trooth does not run them for you and does not grade the output. |
+
+The Ed25519 keys Trooth signs with are published at [trooth.co/verify/keys](https://trooth.co/verify/keys), and `npx trooth verify <domain>` checks a witness statement against them.
 
 ## Security and contact
 
